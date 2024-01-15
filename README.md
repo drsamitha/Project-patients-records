@@ -4,12 +4,12 @@ Project-patients-records is a C++ program for keeping records of patients that a
 
 ## Installation
 
-To install this program, you need to have a C++ compiler and the Crypto++ library installed on your system. You can download Crypto++ from [here].
+To install this program, you need to have a C++ compiler.
 
-To compile the program, run the following command in the project directory:
+To compile the program with MSVC , run the following command in the project directory:
 
 
-    g++ -o patient_record patient_record.cpp -lcryptopp
+    cl patient_record.cpp
 
 This will create an executable file named patient_record in the same directory.
 
